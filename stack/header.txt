@@ -1,0 +1,3 @@
+this is the stack visualized. Don't worry. Take your time. 
+Nobody's going anywhere unless you do some popping.
+----------------
