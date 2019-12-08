@@ -1,20 +1,19 @@
 class Queue {
 	
 	private int[] queue;
-	private int capacity; 
 	private int sizeOfArray; 
+	private int capacity;
 	private int front; 
 	private int rear; 
 	
 	
-	public Queue(int capacity) {
-		this.capacity = capacity; 
+	public Queue(int capacity) { 
+		this.capacity = capacity;
 		queue = new int[capacity];
 		
 		sizeOfArray = 0; 
 		front = 0; 
-		rear = 0; // should be the last element of the queue 
-		
+		rear = 0; 
 	}
 	
 	public int size() {
@@ -27,7 +26,9 @@ class Queue {
 	
 	public void dequeue() {
 		if(!isEmpty())
-		++front;
+		front = front % capacity;
+		queue[front++] = 0; 
+		--sizeOfArray;
 	}
 	
 	public boolean isFull() {
@@ -39,12 +40,21 @@ class Queue {
 			throw new QueueFullException();
 		}
 		
-		queue[rear] = m;
-		++rear;
+		rear = rear % capacity;
+		queue[rear++] = m;
 	}
 	
 	public int peekFirst() {
 		return queue[front];
 	}
 	
+	public int peekLast() {
+		return queue[capacity-1];
+	}
+
+	public void printQueue() {
+		for(int i = 0; i < capacity; i++) {
+			System.out.println(queue[i]);
+		}
+	}
 }
