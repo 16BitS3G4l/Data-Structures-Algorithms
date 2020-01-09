@@ -11,6 +11,9 @@ public class TestingQueue {
         q1.dequeue();
         q1.dequeue();
 
+        q1.enqueue(442);
+        q1.dequeue();
+        
         // there seems to be a weird bug when trying to do these....
         System.out.println(q1.peekFirst()); 
         System.out.println(q1.peekLast());

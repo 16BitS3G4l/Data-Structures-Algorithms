@@ -49,7 +49,7 @@ class Queue {
 	}
 	
 	public int peekLast() {
-		return queue[capacity-1];
+		return queue[rear-1];
 	}
 
 	public void printQueue() {
