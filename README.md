@@ -1,5 +1,5 @@
-# Popular-Data-Structures-Algorithms
-A list/repo full of popular data structures and algorithms that I implement using mainly Python and Java
+# Data-Structures-Algorithms
+A repository to store data structures and algorithms I've implemented.
 
 Table of contents: 
 1. [Selection Sorting Algorithm](https://github.com/dev-segal/Popular-Data-Structures-Algorithms/blob/master/selection-sort/SelectionSort.java)
