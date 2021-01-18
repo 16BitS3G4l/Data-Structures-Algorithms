@@ -11,6 +11,8 @@ import java.util.HashMap;
 */
 
 class ProblemOne {    
+    
+  // Time Complexity: O(n^2)
   public static boolean doesSumExistBruteForce(int k, int[] arr) {
     for(int i = 0; i < arr.length; i++) {
         for(int j = 0; j < arr.length; j++) {
@@ -26,6 +28,7 @@ class ProblemOne {
     return false;
   }
   
+  // Time Complexity: O(n)
   public static boolean doesSumExist(int k, int[] arr) {
     HashMap<Integer, Boolean> map = new HashMap<>();
 
