@@ -1,7 +1,7 @@
 package medium;
 
 public class Node {
-    private String value = 0;
+    private String value = "";
     private Node left = null;
     private Node right = null;
 
