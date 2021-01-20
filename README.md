@@ -21,3 +21,4 @@ Algorithm Implementations:
 Programming Problems: 
 1. [Does Sum (of pairs) Exist in List?](https://github.com/dev-segal/Data-Structures-Algorithms/blob/master/Daily/easy/ProblemOne.java)
 2. [Multiply other elements, except element i, and place at position i](https://github.com/dev-segal/Data-Structures-Algorithms/blob/master/Daily/hard/ProblemTwo.java)
+3. [Serialize/Deserialize Binary Tree](https://github.com/dev-segal/Data-Structures-Algorithms/blob/master/Daily/medium/ProblemThree.java)
