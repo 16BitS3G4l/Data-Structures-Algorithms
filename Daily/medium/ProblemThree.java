@@ -34,7 +34,7 @@ public class ProblemThree {
         if(tree.charAt(position) == '(') {
             deserializedTree = new Node();
 
-            treeCopy = tree.substring(position + 1); // "remove" the paranthesis denoting it's the start of a node
+            treeCopy = tree.substring(position + 1); // "remove" the parentheses denoting it's the start of a node
 
             int positionOfNextComma = treeCopy.indexOf(",");
             value = treeCopy.substring(0, positionOfNextComma);
