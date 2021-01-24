@@ -22,3 +22,5 @@ Programming Problems:
 1. [Does Sum (of pairs) Exist in List?](https://github.com/dev-segal/Data-Structures-Algorithms/blob/master/Daily/easy/ProblemOne.java)
 2. [Multiply other elements, except element i, and place at position i](https://github.com/dev-segal/Data-Structures-Algorithms/blob/master/Daily/hard/ProblemTwo.java)
 3. [Serialize/Deserialize Binary Tree](https://github.com/dev-segal/Data-Structures-Algorithms/blob/master/Daily/medium/ProblemThree.java)
+- The deserialization was a really tough one for me, it took a couple of days. I had some trouble because of the way I decided to format nodes, like so: 
+(NodeValue, (LeftNode), (RightNode)) It felt natural to solve it with a recursive algorithm, but it still had a few hoops to jump through.
