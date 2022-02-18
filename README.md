@@ -23,7 +23,3 @@ Programming Problems:
 3. [Serialize/Deserialize Binary Tree](https://github.com/dev-segal/Data-Structures-Algorithms/blob/master/Daily/medium/ProblemThree.java)
 - The deserialization was a really tough one for me, it took a couple of days. I had some trouble because of the way I decided to format nodes, like so: 
 (NodeValue, (LeftNode), (RightNode)) It felt natural to solve it with a recursive algorithm, but it still had a few hoops to jump through.
-
-![This is an automated blog post image using Azure Function](https://jonathanstrange.000webhostapp.com/testing.php?)
-
-<img src="https://jonathanstrange.000webhostapp.com/testing.php" />
